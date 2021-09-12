@@ -20,9 +20,14 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 - [ ] (1pt) Run your app on a real device.
 
 ### App Walkthrough GIF
-`TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
 
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+![](https://i.imgur.com/f8yYQxz.gif)
 
 ### Notes
 Describe any challenges encountered while building the app.
+
+As far as challenges, just learning about the different controllers and storyboards and making sure everything connected properly was the main thing that I needed to focus hard on.
+
+Along with this, working with the phone simulator is an adjustment too. Sometimes new changes that I had added wouldn't load (for instance, my loading screen picture did not work), but once I closed out the simulator and reloaded it, everything worked fine. 
+
+It was cool to use and display an API on a mobile setting, and I'm looking forward to getting to learn more.
