@@ -15,9 +15,9 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 - [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
 
 ### App Walkthrough GIF
-`TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
 
 ![](https://i.imgur.com/nxRyHCG.gif)
+![](https://i.imgur.com/7YsIFpm.gif)
 
 ### Notes
 One of the main challenges that I ran into with this app was an error that rose when I had to implement "posterView.af.setImage(withURL: posterUrl!)" again in my MovieGridViewController file. An error arose stating that "value of type 'UIView' has no member 'af'", yet I had imported AlamofireImage. Upon further investigation, the issue lied in my posterview connection, as it did not connect as a UIImageView. Once I deleted the previous connection and redid it, the app worked fine.
