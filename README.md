@@ -16,7 +16,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### App Walkthrough GIF
 
-<img src="https://i.imgur.com/nxRyHCG.gif" width=250><br>
+![](https://i.imgur.com/nxRyHCG.gif)
 
 ### Notes
 One of the main challenges that I ran into with this app was an error that rose when I had to implement "posterView.af.setImage(withURL: posterUrl!)" again in my MovieGridViewController file. An error arose stating that "value of type 'UIView' has no member 'af'", yet I had imported AlamofireImage. Upon further investigation, the issue lied in my posterview connection, as it did not connect as a UIImageView. Once I deleted the previous connection and redid it, the app worked fine.
